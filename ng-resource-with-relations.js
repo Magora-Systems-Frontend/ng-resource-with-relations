@@ -8,6 +8,12 @@
 
     function $resourceWithRelationsProvider() {
 
+        var provider = this;
+
+        this.defaults = {
+            url: '/'
+        };
+
 
         this.$get = ['$resource', '$q', '$injector', function ($resource, $q, $injector) {
 
@@ -17,7 +23,7 @@
                     relations = {};
                 }
 
-                var modelResource = $resource(url, paramDefaults, actions, options);
+                var modelResource = $resource(provider.defaults.url + url, paramDefaults, actions, options);
 
                 modelResource._with = function (method, relations, params, cb) {
                     if (relations === undefined) {
