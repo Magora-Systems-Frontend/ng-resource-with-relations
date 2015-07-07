@@ -1,0 +1,24 @@
+{
+  "name": "ng-resource-with-relations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magora-Systems-Frontend/ng-resource-with-relations.git"
+  },
+  "author": "Dmitry Kalyuk",
+  "license": "MIT",
+  "homepage": "https://github.com/Magora-Systems-Frontend/ng-resource-with-relations#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^1.2.5",
+    "gulp-uglify": "^1.2.0",
+    "minimist": "^1.1.1",
+    "require-dir": "^0.3.0"
+  }
+}

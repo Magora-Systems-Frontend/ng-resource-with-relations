@@ -1,0 +1,19 @@
+{
+  "name": "ng-resource-with-relations",
+  "version": "0.0.1",
+  "authors": [
+    "Dmitry Kalyuk"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "demo",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": ">=1.4.0",
+    "angular-resource": "~1.4.0"
+  }
+}

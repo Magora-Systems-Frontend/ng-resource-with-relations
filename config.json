@@ -1,0 +1,6 @@
+{
+  "build": {
+    "src": ["./ng-resource-with-relations.js"],
+    "dst": "ng-resource-with-relations.min.js"
+  }
+}
