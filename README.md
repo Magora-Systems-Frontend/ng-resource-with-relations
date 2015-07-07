@@ -2,7 +2,6 @@ angular
         .module('myApp', ['ngResourceWithRelations'])
         
         
-
 Данный модуль позволяет связать несколько моделей.
 
 Базируется модуль на ngResource.
@@ -14,7 +13,7 @@ getWith и queryWith
 
 relations может быть строкой или массивом
 
-вложенность свзяоннсти не ограничена
+вложенность связанности не ограничена
 
 relations = 'news.category......'
 
@@ -37,7 +36,6 @@ relations = [{
         .factory('CategoryModel', CategoryModel)
         .factory('NewsModel', NewsModel)
         .run(run);
-
 
     CategoryModel.$inject = ['$resourceWithRelations'];
 
