@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('myApp', ['ngResourceWithRelations'])
+        .module('myApp', ['mgr.ngResourceWithRelations'])
         .factory('CategoryModel', CategoryModel)
         .factory('NewsModel', NewsModel)
         .run(run);

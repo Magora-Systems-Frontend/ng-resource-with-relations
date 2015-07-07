@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('ngResourceWithRelations', ['ngResource'])
+        .module('mgr.ngResourceWithRelations', ['ngResource'])
         .provider('$resourceWithRelations', $resourceWithRelationsProvider);
 
     function $resourceWithRelationsProvider() {

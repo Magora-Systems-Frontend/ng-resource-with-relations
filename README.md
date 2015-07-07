@@ -1,5 +1,5 @@
 angular
-        .module('myApp', ['ngResourceWithRelations'])
+        .module('myApp', ['mgr.ngResourceWithRelations'])
         
         
 Данный модуль позволяет связать несколько моделей.
@@ -32,7 +32,7 @@ relations = [{
   Для связанных моделей можно передать дополнительные параметры на сервер
 
  angular
-        .module('myApp', ['ngResourceWithRelations'])
+        .module('myApp', ['mgr.ngResourceWithRelations'])
         .factory('CategoryModel', CategoryModel)
         .factory('NewsModel', NewsModel)
         .run(run);
